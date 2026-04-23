@@ -28,10 +28,8 @@
             <a href="#" class="text-white hover:text-darkGrayishBlue">Expériences</a>
             <a href="#" class="text-white hover:text-darkGrayishBlue">Projets</a>
             <a href="#" class="text-white hover:text-darkGrayishBlue">Services</a>
+            <a href="#" class="text-white hover:text-darkGrayishBlue">Contact</a>
         </div>
-        <a class="hidden md:block p-3 px-6 pt-2 bg-white text-[#19374F] rounded-full baseline hover:bg-gray-300 cursor-pointer">
-            Contact Me
-        </a>
     </div>
     <div aria-hidden="true"
          class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
@@ -45,26 +43,32 @@
         class="container flex flex-col justify-between md:flex-row items-center px-6 mx-auto mt-10 space-y-12 md:space-y-0">
         <div class="flex justify-center md:w-1/2">
             <img src="{{asset('assets/images/profil.png')}}" alt="profile" width="400"
-                 class="inline-block rounded-2xl border-4 border-amber-100 shadow-lg skew-2">
+                 class="inline-block rounded-2xl border-4 border-amber-100 shadow-lg md:skew-2">
         </div>
-        <div class="flex justify-end content-center flex-col md:w-1/2">
+        <div class="flex justify-end content-center flex-col space-y-6 md:w-1/2">
             <h1 class="text-amber-50 text-4xl font-bold text-center mb-10 md:text-6xl md:text-left">
-                Développeur Web Full Stack
+                Sedynah RAMANANTSOA
             </h1>
-            <p class=" text-center text-[25px] text-darkGrayishBlue md:text-left">
-                Développeur web full stack, spécialisé en PHP (Laravel) et JavaScript, je développe des applications web
-                et des API robustes. J’accompagne aussi les projets dans l’intégration, l’optimisation des performances
-                et l’amélioration de l’expérience utilisateur.
+
+            <p class="text-center text-4xl font-extralight text-gray-400 md:text-left">
+                Développeur Web Full Stack
             </p>
+            <div class="flex text-center justify-center md:justify-start mt-10">
+                <a type="button"
+                   class="p-3 px-6 pt-2 text-black font-bold bg-amber-100 rounded-lg baseline hover:bg-amber-200 cursor-pointer">
+                    Télécharger mon CV
+                </a>
+            </div>
+
         </div>
     </div>
 </section>
-<section id="experience" class="mb-40">
-    <h1 class="text-center text-4xl mt-40 font-bold text-amber-100 underline opacity-20">Expériences
+<section id="experience" class="relative mb-40">
+    <h1 class="text-center text-4xl mt-40 font-bold sticky top-0">Expériences
         Professionnelles</h1>
     <div class="container flex flex-col px-4 mx-auto mt-30 space-y-12 md:space-y-0 md:flex-row">
         <div class="flex flex-col space-y-3 md:w-1/2 md:mr-12">
-            <h2 class="text-4xl font-bold text-center md:text-right">
+            <h2 class="text-4xl font-extralight text-center md:text-right">
                 Développeur Laravel Freelance
             </h2>
             <div class="text-center md:text-right">
@@ -118,7 +122,7 @@
     </div>
     <div class="container flex flex-col px-4 mx-auto mt-30 space-y-12 md:space-y-0 md:flex-row">
         <div class="flex flex-col space-y-3 md:w-1/2 md:mr-12">
-            <h2 class="text-4xl font-bold text-center md:text-right">
+            <h2 class="text-4xl font-extralight text-center md:text-right">
                 Développeur Laravel – COPILOTAS
             </h2>
             <div class="text-center md:text-right">
@@ -164,7 +168,7 @@
     </div>
     <div class="container flex flex-col px-4 mx-auto mt-30 space-y-12 md:space-y-0 md:flex-row">
         <div class="flex flex-col space-y-3 md:w-1/2 md:mr-12">
-            <h2 class="text-4xl font-bold text-center md:text-right">
+            <h2 class="text-4xl font-extralight text-center md:text-right">
                 Développeur Web Freelance
             </h2>
             <div class="text-center md:text-right">
@@ -173,8 +177,10 @@
                 <span
                     class="border-[#FEF3C6] border-2 text-[#FEF3C6] text-xs font-medium px-1.5 py-0.5 rounded">Prestashop</span>
                 <span class="border-[#FEF3C6] border-2 text-[#FEF3C6] text-xs font-medium px-1.5 py-0.5 rounded">HTML/CSS</span>
-                <span class="border-[#FEF3C6] border-2 text-[#FEF3C6] text-xs font-medium px-1.5 py-0.5 rounded">Shopify</span>
-                <span class="border-[#FEF3C6] border-2 text-[#FEF3C6] text-xs font-medium px-1.5 py-0.5 rounded">Laravel</span>
+                <span
+                    class="border-[#FEF3C6] border-2 text-[#FEF3C6] text-xs font-medium px-1.5 py-0.5 rounded">Shopify</span>
+                <span
+                    class="border-[#FEF3C6] border-2 text-[#FEF3C6] text-xs font-medium px-1.5 py-0.5 rounded">Laravel</span>
             </div>
             <p class="text-center text-darkGrayishBlue md:text-right">
                 Novembre 2023 – Mars 2025
@@ -220,8 +226,8 @@
     </div>
     <div class="container flex flex-col px-4 mx-auto mt-30 space-y-12 md:space-y-0 md:flex-row">
         <div class="flex flex-col space-y-3 md:w-1/2 md:mr-12">
-            <h2 class="text-4xl font-bold text-center md:text-right">
-                STAGIAIRE DÉVELOPPEUR - SLifeTracker
+            <h2 class="text-4xl font-extralight text-center md:text-right">
+                Stagiaire développeur - SLifeTracker
             </h2>
             <div class="text-center md:text-right">
                 <span
@@ -268,6 +274,100 @@ des sites existants.</span>
         </div>
     </div>
 
+</section>
+<section id="projets">
+    <div class="max-w-6xl px-5 mx-auto mt-32 text-center">
+        <h2 class="text-4xl font-bold text-center">Mes projets</h2>
+        <p class="text-lg text-center text-gray-500 mt-2">Réalisations sélectionnées</p>
+        <div class="flex flex-col mt-15 md:flex-row space-y-6 md:space-y-0 md:space-x-6 border-t-2 pt-15">
+            <div
+                class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 transform transition duration-300 hover:scale-125">
+                <img class="h-48 w-96 object-cover ..." src="{{asset('assets/images/car_rental.png')}}" alt="">
+                <a href="#" class="text-lg text-black font-bold">Car Rental</a>
+                <div class="text-sm text-darkGrayishBlue">
+                    Développement d’une application web de location de véhicules avec système de suivi sur carte.
+                    Permet de gérer les réservations et de visualiser la position des véhicules.
+                </div>
+            </div>
+            <div
+                class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 transform transition duration-300 hover:scale-125">
+                <img class="h-48 w-96 object-cover ..." src="{{asset('assets/images/ar.png')}}" alt="">
+                <a href="https://antillesrecrutement.com" target="_blank" class="text-lg text-black font-bold">Antilles
+                    Recrutement</a>
+                <div class="text-sm text-darkGrayishBlue">
+                    Participation à l’amélioration du site Antilles Recrutement Martinique.
+                    Ajout de fonctionnalités, correction de bugs et amélioration de l’interface utilisateur.
+                </div>
+            </div>
+            <div
+                class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 transform transition duration-300 hover:scale-125">
+                <img class="h-48 w-96 object-cover ..." src="{{asset('assets/images/port.png')}}" alt="">
+                <a href="{{route('trano')}}" class="text-lg text-black font-bold">Portfolio</a>
+                <div class="text-sm text-darkGrayishBlue">
+                    Création d’un site web personnel pour présenter mon parcours, mes compétences et mes réalisations.
+                    Permet de valoriser mes projets et mon profil professionnel.
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<section id="contact">
+    <h2 class="text-4xl font-bold text-center mt-30">Contact</h2>
+    <div class="container flex flex-col px-4 mx-auto mt-30 space-y-12 md:space-y-0 md:flex-row">
+        <div class="flex flex-col space-y-3 md:w-1/2 md:mr-12">
+            <h1 class="text-center md:text-left text-6xl text-gray-300 font-[100]">Construisons quelque chose ensemble
+                <span class="text-center md:text-left font-bold text-6xl leading-tight">
+                de Grand et d’Impactant
+            </span></h1>
+            <p class="text-lg text-center md:text-left text-gray-200 mt-1 max-w-xl">
+                Passionné par le développement web, je conçois des solutions modernes, performantes et centrées sur
+                l’expérience utilisateur.
+            </p>
+        </div>
+        <div class="flex flex-col space-y-3 md:w-1/2 md:mr-12">
+            <form action="#" method="POST" class="flex flex-col space-y-3">
+                @csrf
+                <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+                    <div>
+                        <label for="first-name" class="block text-sm/6 font-semibold text-white">Prénom</label>
+                        <div class="mt-2.5">
+                            <input id="first-name" type="text" name="first-name" autocomplete="given-name"
+                                   class="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"/>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="last-name" class="block text-sm/6 font-semibold text-white">Nom</label>
+                        <div class="mt-2.5">
+                            <input id="last-name" type="text" name="last-name" autocomplete="family-name"
+                                   class="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"/>
+                        </div>
+                    </div>
+                    <div class="sm:col-span-2">
+                        <label for="email" class="block text-sm/6 font-semibold text-white">Email</label>
+                        <div class="mt-2.5">
+                            <input id="email" type="email" name="email" autocomplete="email"
+                                   class="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"/>
+                        </div>
+                    </div>
+                    <div class="sm:col-span-2">
+                        <label for="message" class="block text-sm/6 font-semibold text-white">Message</label>
+                        <div class="mt-2.5">
+                            <textarea id="message" name="message" rows="4"
+                                      class="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-10">
+                    <button type="submit"
+                            class="block w-full rounded-md bg-indigo-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">
+                        Envoyer
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
 </section>
 </body>
 </html>
